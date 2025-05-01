@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    
+    <div id="cal">
+    
+            <input id="dis" placeholder=" " readonly>
+        <div id="key">
+            <Button onclick="app('+')"  class="g">+</Button>
+            <Button onclick="app('7')">7</Button>
+            <Button onclick="app('8')">8</Button>
+            <Button onclick="app('9')">9</Button>
+            <Button onclick="app('-')" class="g">-</Button>
+            <Button onclick="app('6')">6</Button>
+            <Button onclick="app('5')">5</Button>
+            <Button onclick="app('4')">4</Button>
+            <Button onclick="app('*')" class="g">*</Button>
+            <Button onclick="app('1')">1</Button>
+            <Button onclick="app('2')">2</Button>
+            <Button onclick="app('3')">3</Button>
+            <Button onclick="app('/')" class="g">/</Button>
+            <Button onclick="app('.')">.</Button>
+            <Button onclick="app('0')">0</Button>
+            <Button onclick="cal()">Cal</Button>
+            <Button onclick="clearr()" class="g">C</Button>
+            <button onclick="del()">E</button>
+            <button onclick="app('%')">%</button>
+            <button onclick="sqrt()" class="gh">√</button>
+
+
+        </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>

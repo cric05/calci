@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(248, 97%, 12%);
+}
+button{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border: none;
+    background-color:hsl(0, 0%, 30%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-text-stroke: black;
+
+}
+#dis{
+    width: 100%;
+    padding: 25px;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    
+    font-size: 3rem;
+}
+#cal{
+    background-color: black;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1rem;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    padding: 25px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 45%);
+}
+button:active{
+    background-color: hsl(0,0%,55%);
+}
+.g{
+    background-color: hsl(35,100%,55%);
+}
+.g:hover{
+    background-color: hsl(35,100%,65%);
+}
+.g:active{
+    background-color: hsl(35,100%,75%);
+}
+#cal {
+    
+    box-shadow: 2px 2px 5px rgba(10,20%,300%,100%); 
+    transition: 0.2s;
+}
+
+
+.gh{
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+}
